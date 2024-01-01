@@ -1,0 +1,272 @@
+body{
+    background-color: rgb(244, 237, 143);
+    margin: 0px;
+    padding: 0px;
+}
+header{
+   background-color: rgb(0, 0, 0);
+   padding: 40px;
+   height: 400px;
+   background-image: url("future\ brands.jpg");
+   background-position: center;
+   background-size: 100%;
+   
+}
+h1{
+text-align: center;
+color: rgb(255, 255, 255);
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+box-shadow: black;
+
+
+}
+ ul{
+    display: flex;
+
+}
+li{
+    list-style-type: none;
+    
+}
+li:active{
+    border-radius: 5px;
+} 
+.home{
+    background-color: rgb(46, 0, 0);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+   
+    
+}
+.home:hover{
+    background-color: orangered;
+    color: white;
+}
+.graphics{
+    background-color: rgb(48, 3, 20);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+   
+    
+}
+.graphics:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+ img{
+    display: inline-block;
+    padding-top: 0px;
+} 
+
+section{
+    background-color: rgb(255, 255, 255);
+   
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    
+}
+
+div{
+    background: rgb(26, 4, 64);
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    
+   
+}
+p {
+    color: black;
+    margin-top: 300px;
+}
+footer{
+    background-color: rgb(30, 4, 73);
+    padding: 30px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    color: blanchedalmond;
+    margin:20px 20px 20px 20px;
+}
+.home3{
+    background-color: rgb(59, 1, 50);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+   
+    
+}
+.home3:hover{
+    background-color: orangered;
+    color: white;
+}
+.graphics3{
+    background-color: rgb(66, 3, 51);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+   
+    
+}
+.graphics3:hover{
+    background-color: orangered;
+    color: white;
+}
+.services{
+    background-color: rgb(39, 1, 26);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+   
+    
+}
+.services:hover{
+    background-color: orangered;
+    color: white;
+}
+.a{
+    color: rgb(255, 255, 255);
+}
+.b{
+    color: rgb(255, 255, 255);
+}
+.c{
+    color: rgb(255, 255, 255);
+}
+.d{
+    color: rgb(255, 255, 255);
+}
+.e{
+    color: rgb(255, 255, 255);
+}
+.f{
+    color: #ffffff;
+}
+li img{
+display: inline-block;
+margin: 20px 20px 20px 20px;
+box-shadow: black 10px 10px 10px;
+
+}
+.m1 {
+     border-radius: 20px;
+}
+.m2 {
+    border-radius: 20px;
+}
+.m3 {
+    border-radius: 20px;
+}
+
+
+.loader {
+   --c:#ffffff;
+    width:100%;
+    height: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    color: #ffffff00;
+    overflow: hidden;
+    text-shadow: 0 0 var(--c),11ch 0 var(--c);
+    animation: l6 2s infinite linear;
+  }
+  .loader:before {
+    content:"in progress..."
+  }
+  @keyframes l6 {to{text-shadow:-11ch 0 var(--c),0ch 0 var(--c)}}
+  figcaption{
+    text-align: center;
+  }
+  /* HTML: <div class="loader"></div> */
+.fig1{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    display: inline-grid;
+  }
+  .fig1:before,
+  .fig1:after {
+    content:"Flyer";
+    grid-area: 1/1;
+    -webkit-mask:linear-gradient(90deg,#000 50%,#0000 0) 0 50%/2ch 100%;
+    animation: l29 2s infinite;
+  }
+  .fig1:after {
+    -webkit-mask-position:1ch 50%;
+    --s:-1;
+  }
+  @keyframes l29 {
+     80%,100% {transform: rotate(calc(var(--s,1)*1turn))}
+  }
+  /* HTML: <div class="loader"></div> */
+.fig2 {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    background: radial-gradient(circle closest-side,#000 94%,#0000) right/calc(200% - 1em) 100%;
+    animation: l24 1s infinite alternate linear;
+  }
+  .fig2::before {
+    content: "Poster";
+    line-height: 1em;
+    color: #0000;
+    background: inherit;
+    background-image: radial-gradient(circle closest-side,#fff 94%,#000);
+    -webkit-background-clip:text;
+            background-clip:text;
+  }
+  
+  @keyframes l24{
+    100%{background-position: left}
+  }
+  /* HTML: <div class="loader"></div> */
+.fig3 {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    overflow: hidden;
+    padding-right: 0px;
+  }
+  .fig3::before {
+    content: "Bilboard";
+    text-align :center;
+    padding-right: 0px;
+    color: #0000;
+    text-shadow: 0 0 0 #000,10ch 0 0 #fff,20ch 0 0 #000;
+    background: linear-gradient(90deg,#0000 calc(100%/3),#000 0 calc(2*100%/3),#0000 0) left/300% 100%;
+    animation: l23 2s infinite;
+  }
+  
+  @keyframes l23{
+    50% {background-position: center;text-shadow: -10ch 0 0 #000,    0 0 0 #fff,10ch 0 0 #000}
+    100%{background-position: right ;text-shadow: -20ch 0 0 #000,-10ch 0 0 #fff,   0 0 0 #000}
+  }
+  #homesec{
+    background-image: url("home\ background.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+    background-blend-mode: darken;
+  }
