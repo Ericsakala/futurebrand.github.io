@@ -1,0 +1,31 @@
+
+<doctype.html>
+  <html>
+  <header>
+  
+  <link rel = "stylesheet" type="text/css" href="style.css">
+  </header>
+  <body>
+  
+<h1>{
+   background-color: rgb(0, 8, 255);
+    color:rgb(255, 255, 255) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-underline-position:auto rgb(255, 238, 0) ;
+  </h>}
+   <select>{
+color: rgb(255, 0, 0);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+</select>}
+    
+   <action>{
+color: rgb(0, 0, 0);
+font-size: 20px;
+</action>}
+  < fieldset>{
+    background-color: goldenrod;
+  font-weight:bold ;
+  </fieldset>}
+  
+   </body>
+   </html>
